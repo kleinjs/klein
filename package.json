@@ -1,0 +1,58 @@
+{
+	"about": {
+		"name": "KleinJS Command Line Interface Tool",
+		"author": "KleinJS",
+		"copyright": "Copyright (c) 2015, KleinJS.  All Rights Reserved.",
+		"id": "com.kleinjs.kjs.commands"
+	},
+
+	"name": "KleinJS",
+
+	"description": "KleinJS CLI",
+
+	"keywords": [
+		"kleinjs",
+		"klein",
+		"native"
+	],
+	
+	"version": "0.0.1-dev",
+
+	"author": {
+		"name": "KleinJS",
+		"email": "npm@klein.cf"
+	},
+
+	"maintainers": [
+		{"name": "Ji Yong, Kim", "email": "main@klein.cf"}
+	],
+
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/kleinjs/klein.git"
+	},
+
+	"preferGlobal": true,
+
+	"dependencies": {
+	},
+
+	"devDependencies": {
+	},
+
+	"license": "Apache Public License v2",
+	
+	"bin": {
+		"ti": "./bin/titanium"
+	},
+	
+	"main": "./lib/titanium",
+	
+	"directories": {
+		"lib": "./lib"
+	},
+	
+	"engines": {
+		"node": ">=0.10"
+	}
+}
